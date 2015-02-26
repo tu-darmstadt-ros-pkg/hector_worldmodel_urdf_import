@@ -61,6 +61,9 @@ bool WorldModelUrdfImport::process(std::string param_name,
         userPercept.info.name = link->name;
         userPercept.info.object_id = "?";
 
+        userPercept.info.class_support = 1;
+        userPercept.info.object_support = 1;
+
 
         _percept_pub.publish(userPercept);
 
