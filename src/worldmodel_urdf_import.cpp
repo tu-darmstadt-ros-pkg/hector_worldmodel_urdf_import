@@ -11,7 +11,7 @@ WorldModelUrdfImport::WorldModelUrdfImport()
 {
     ros::NodeHandle priv_nh("~");
 
-    priv_nh.param("topic_name",  _topic_name, std::string("worldmodel/import/UserPercept"));
+    priv_nh.param("topic_name",  _topic_name, std::string("worldmodel/user_percept"));
 
     ros::NodeHandle _nh;
 
@@ -41,6 +41,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
         hector_worldmodel_msgs::UserPercept userPercept;
 
+        userPercept.header.frame_id = "map";
         userPercept.header.seq = seq++;
 
         urdf::Pose pose = joint->parent_to_joint_origin_transform;
@@ -59,6 +60,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
         userPercept.info.name = link->name;
         userPercept.info.object_id = "?";
+
 
         _percept_pub.publish(userPercept);
 
