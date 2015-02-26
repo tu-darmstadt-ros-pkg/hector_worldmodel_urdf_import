@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   urdf
   hector_worldmodel_msgs
+  tf
 )
 
 set(CMAKE_BUILD_TYPE Debug)

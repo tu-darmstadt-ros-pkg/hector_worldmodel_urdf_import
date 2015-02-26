@@ -4,6 +4,8 @@
 #include <ros/console.h>
 #include <hector_worldmodel_msgs/UserPercept.h>
 #include <urdf_model/link.h>
+#include <tf/transform_listener.h>
+#include <tf/transform_broadcaster.h>
 
 namespace worldmodel_urdf_import{
 
@@ -83,6 +85,24 @@ int main(int argc, char **argv)
 {
 
     ros::init(argc, argv, "worldmodel_urdf_import");
+
+
+    //Check if transformation for static map already exsists, if not publish initial transformation
+    tf::TransformListener listener;
+    tf::StampedTransform transform;
+
+    try{
+        listener.lookupTransform("map", "static_map",
+                                 ros::Time(0), transform);
+    }
+    catch (tf::TransformException ex){
+        //Publish initialtransformation for static_map
+        tf::TransformBroadcaster br;
+        tf::Transform transform;
+        transform.setOrigin( tf::Vector3(0.0, 0.0, 0.0) );
+        transform.setRotation( tf::Quaternion(0, 0, 0, 1) );
+        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "map", "static_map"));
+    }
 
     ROS_INFO("worldmodel_urdf_import start");
     worldmodel_urdf_import::WorldModelUrdfImport urdf_importer;
