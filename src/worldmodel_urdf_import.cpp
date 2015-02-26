@@ -41,7 +41,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
         hector_worldmodel_msgs::UserPercept userPercept;
 
-        userPercept.header.frame_id = "map";
+        userPercept.header.frame_id = "static_map";
         userPercept.header.seq = seq++;
 
         urdf::Pose pose = joint->parent_to_joint_origin_transform;
@@ -59,7 +59,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
         userPercept.info.class_id = class_id;
 
         userPercept.info.name = link->name;
-        userPercept.info.object_id = "?";
+        userPercept.info.object_id = link->name;
 
         userPercept.info.class_support = 1;
         userPercept.info.object_support = 1;
