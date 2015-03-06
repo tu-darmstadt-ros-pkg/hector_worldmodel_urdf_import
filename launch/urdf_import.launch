@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="hector_worldmodel_urdf_import" type="hector_worldmodel_urdf_import_node" name="hector_worldmodel_urdf_import" output="screen">
+      <param name="topic_name" type="string" value="worldmodel/user_percept" />
+
+    <rosparam>
+      imports:
+        - urdf_name: umad_objects_description
+          class_id: dial_gauge
+          frame_id: map
+#       - urdf_name: umad_objects_description
+#         class_id: dial_gauge
+    </rosparam>
+
+    </node>
+</launch>

@@ -6,6 +6,7 @@
 #include <urdf_model/link.h>
 #include <tf/transform_listener.h>
 #include <tf/transform_broadcaster.h>
+#include <XmlRpcException.h>
 
 namespace worldmodel_urdf_import{
 
@@ -15,16 +16,47 @@ WorldModelUrdfImport::WorldModelUrdfImport()
 
     priv_nh.param("topic_name",  _topic_name, std::string("worldmodel/user_percept"));
 
-    ros::NodeHandle _nh;
-
     _percept_pub = _nh.advertise<hector_worldmodel_msgs::UserPercept>(_topic_name, 1000);
 
     ROS_INFO("Publishing to: %s", _topic_name.c_str());
 
 }
 
+void WorldModelUrdfImport::processConfig(){
+
+    ros::NodeHandle priv_nh("~");
+
+    XmlRpc::XmlRpcValue urdf_import_names;
+    if (priv_nh.getParam("imports", urdf_import_names) && urdf_import_names.getType() == XmlRpc::XmlRpcValue::TypeArray) {
+        for(int i = 0; i < urdf_import_names.size(); ++i) {
+            XmlRpc::XmlRpcValue item = urdf_import_names[i];
+            if (!item.hasMember("urdf_name")) {
+                ROS_ERROR("Urdf %d could not be imported: no urdf name given", i);
+                continue;
+            }
+
+            std::string urdf_name = item["urdf_name"];
+            if (!item.hasMember("class_id")) {
+                ROS_ERROR("Urdf %d could not be imported: no class_id given", i);
+                continue;
+            }
+            std::string class_id = item["urdf_name"];
+
+            if (!item.hasMember("frame_id")) {
+                ROS_ERROR("Urdf %d could not be imported: no frame_id given", i);
+                continue;
+            }
+            std::string frame_id = item["frame_id"];
+
+            ROS_INFO("Importing urdf %d", i);
+            this->process(urdf_name, class_id, frame_id);
+        }
+    }
+
+}
+
 bool WorldModelUrdfImport::process(std::string param_name,
-                                   std::string class_id){
+                                   std::string class_id, std::string frame_id){
     urdf::Model urdf_model;
     if (!urdf_model.initParam(param_name)){
         ROS_ERROR("Failed to load urdf");
@@ -43,7 +75,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
         hector_worldmodel_msgs::UserPercept userPercept;
 
-        userPercept.header.frame_id = "static_map";
+        userPercept.header.frame_id = frame_id;
         userPercept.header.seq = seq++;
 
         urdf::Pose pose = joint->parent_to_joint_origin_transform;
@@ -61,6 +93,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
         userPercept.info.class_id = class_id;
 
         userPercept.info.name = link->name;
+
         userPercept.info.object_id = link->name;
 
         userPercept.info.class_support = 1;
@@ -86,33 +119,12 @@ int main(int argc, char **argv)
 
     ros::init(argc, argv, "worldmodel_urdf_import");
 
-
-    //Check if transformation for static map already exsists, if not publish initial transformation
-    tf::TransformListener listener;
-    tf::StampedTransform transform;
-
-    try{
-        listener.lookupTransform("map", "static_map",
-                                 ros::Time(0), transform);
-    }
-    catch (tf::TransformException ex){
-        //Publish initialtransformation for static_map
-        tf::TransformBroadcaster br;
-        tf::Transform transform;
-        transform.setOrigin( tf::Vector3(0.0, 0.0, 0.0) );
-        transform.setRotation( tf::Quaternion(0, 0, 0, 1) );
-        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "map", "static_map"));
-    }
-
     ROS_INFO("worldmodel_urdf_import start");
     worldmodel_urdf_import::WorldModelUrdfImport urdf_importer;
 
     sleep(1);
 
-    if(!urdf_importer.process("umad_objects_description", "dial_gauge")){
-        ROS_ERROR("error on process!");
-        exit(-1);
-    }
+    urdf_importer.processConfig();
 
     ROS_INFO("worldmodel_urdf_import done");
     exit(0);
