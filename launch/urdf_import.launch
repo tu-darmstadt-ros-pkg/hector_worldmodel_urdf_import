@@ -8,7 +8,7 @@
       imports:
         - urdf_name: umad_objects_description
           class_id: dial_gauge
-          frame_id: map
+          frame_id: world
 #       - urdf_name: umad_objects_description
 #         class_id: dial_gauge
     </rosparam>

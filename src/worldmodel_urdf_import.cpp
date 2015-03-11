@@ -122,7 +122,7 @@ int main(int argc, char **argv)
     ROS_INFO("worldmodel_urdf_import start");
     worldmodel_urdf_import::WorldModelUrdfImport urdf_importer;
 
-    sleep(1);
+    sleep(2);
 
     urdf_importer.processConfig();
 
