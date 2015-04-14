@@ -101,10 +101,11 @@ include_directories(
 )
 
 ## Declare a cpp library
-# add_library(hector_worldmodel_urdf_import
-#   src/${PROJECT_NAME}/hector_worldmodel_urdf_import.cpp
-# )
-
+ add_library(hector_worldmodel_urdf_import
+   src/worldmodel_urdf_import.cpp
+   src/worldmodel_urdf_import.h
+ )
+add_dependencies(hector_worldmodel_urdf_import ${catkin_EXPORTED_TARGETS})
 ## Declare a cpp executable
 add_executable(hector_worldmodel_urdf_import_node src/worldmodel_urdf_import.cpp)
 
