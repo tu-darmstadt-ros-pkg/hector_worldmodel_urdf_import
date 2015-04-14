@@ -36,11 +36,12 @@ void WorldModelUrdfImport::processConfig(){
             }
 
             std::string urdf_name = item["urdf_name"];
+
             if (!item.hasMember("class_id")) {
                 ROS_ERROR("Urdf %d could not be imported: no class_id given", i);
                 continue;
             }
-            std::string class_id = item["urdf_name"];
+            std::string class_id = item["class_id"];
 
             if (!item.hasMember("frame_id")) {
                 ROS_ERROR("Urdf %d could not be imported: no frame_id given", i);
