@@ -78,6 +78,7 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
         userPercept.header.frame_id = frame_id;
         userPercept.header.seq = seq++;
+        userPercept.header.stamp =ros::Time::now();
 
         urdf::Pose pose = joint->parent_to_joint_origin_transform;
 
@@ -102,7 +103,8 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
 
         _percept_pub.publish(userPercept);
-
+         ros::Rate rate(ros::Duration(0.1));
+         rate.sleep();
         ROS_INFO("Percept published");
 
 
