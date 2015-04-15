@@ -92,10 +92,10 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
 
         userPercept.info.class_id = class_id;
+        std::string name = link->name.substr(0, link->name.find_last_of("_"));
+        userPercept.info.name = name;
 
-        userPercept.info.name = link->name;
-
-        userPercept.info.object_id = link->name;
+        userPercept.info.object_id = name;
 
         userPercept.info.class_support = 1;
         userPercept.info.object_support = 1;
