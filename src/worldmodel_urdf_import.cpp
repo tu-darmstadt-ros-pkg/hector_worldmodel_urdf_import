@@ -101,6 +101,11 @@ bool WorldModelUrdfImport::process(std::string param_name,
         userPercept.info.class_support = 1;
         userPercept.info.object_support = 1;
 
+        std::vector<float> data(3);
+        data[0] = -1;
+        //data[1] = 0; //min value
+        //data[2] = 2.5; //max value
+        userPercept.info.data =data;
 
         _percept_pub.publish(userPercept);
          ros::Rate rate(ros::Duration(0.1));
