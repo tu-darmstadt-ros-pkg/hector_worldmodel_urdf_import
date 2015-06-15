@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
 <launch>
-
-    <rosparam ns="object_tracker/objects" command="load" file="$(find hector_worldmodel_urdf_import)/config/checkpoint_parameter.yaml" />
+    <arg name="checkpoint_file" default="$(find hector_worldmodel_urdf_import)/config/checkpoint_parameter.yaml"/>
+    <rosparam ns="object_tracker/objects" command="load" file="$(arg checkpoint_file)" />
 
     <node pkg="hector_worldmodel_urdf_import" type="hector_worldmodel_urdf_import_node" name="hector_worldmodel_urdf_import" output="screen">
       <param name="topic_name" type="string" value="worldmodel/user_percept" />

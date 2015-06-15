@@ -1,100 +1,138 @@
 checkpoint_01:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0
-  - arm1: 0.0
-    arm2: 0
-    arm3: 0
-    arm4: 0
-    arm5: 0
   dial_properties:
     diameter: 0.1
   diameter: 3.14
   distanceToWall: -0.19
   driveToPosition:
-  - x: 0.7
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.7
     y: -1.2
     yaw: 0.5
-  - x: 0.7
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0 
+    x: 0.7
     y: -1.2
     yaw: 1.5
   max_value: 10
   min_value: 0
   wallOrientation: 1
 checkpoint_02:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
-  - arm1: 0.0
-    arm2: 0
-    arm3: 0
-    arm4: 0
-    arm5: 0
   dial_properties:
     diameter: 0.1
   diameter: 3.14
   distanceToWall: -1.1
   driveToPosition:
-  - x: 1.8
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.8
     y: 0.0
     yaw: 0.5
-  - x: 1.8
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.8
     y: 0.0
     yaw: 1.5
-  - x: 1.6
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.6
     y: -1.7
     yaw: 0.5
-  - x: 1.6
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.6
     y: -1.7
     yaw: 1.5
   max_value: 2.5
   min_value: 0
   wallOrientation: 1
 checkpoint_03:
-  armPosition:
-  - arm1: -2.9487757311486007e-06
-    arm2: -0.91
-    arm3: -2.3
-    arm4: -0.96
-    arm5: -2.07776344485211e-06
   dial_properties:
     diameter: 0.15
   distanceToWall: -1.1
   driveToPosition:
-  - x: 0.0
+  - armPosition:
+    - arm1: -2.9487757311486007e-06
+    arm2: -0.91
+    arm3: -2.3
+    arm4: -0.96
+    arm5: -2.07776344485211e-06
+    x: 0.0
     y: -1.8
     yaw: 0.0
-  - x: 0.7
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.7
     y: -1.8
     yaw: 1.0
   max_value: 10
   min_value: 0
   wallOrientation: 0.5
 checkpoint_04:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   distanceToWall: 0.19
   driveToPosition:
-  - x: -0.4
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: -0.4
     y: -1.1
     yaw: 0.5
-  - x: -0.35
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: -0.35
     y: 1.1
     yaw: 0.20555555555555555
-  - x: -0.4
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: -0.4
     y: -1.1
     yaw: 1.5
-  - x: -0.35
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: -0.35
     y: 1.1
     yaw: 1.2055555555555555
   max_value: 1
@@ -105,18 +143,24 @@ checkpoint_04:
     width: 0.03
   wallOrientation: 0
 checkpoint_05:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   distanceToWall: 0.055
   driveToPosition:
-  - x: 1.1
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.1
     y: -0.4
     yaw: 0.0
-  - x: 1.1
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.1
     y: -0.4
     yaw: 1.0
   max_value: 1
@@ -127,18 +171,24 @@ checkpoint_05:
     width: 0.03
   wallOrientation: 0.5
 checkpoint_06:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   distanceToWall: 0.1
   driveToPosition:
-  - x: 1.1
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.1
     y: -0.4
     yaw: 0.0
-  - x: 1.1
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 1.1
     y: -0.4
     yaw: 1.0
   max_value: 1
@@ -149,58 +199,76 @@ checkpoint_06:
     width: 0.03
   wallOrientation: 0.5
 checkpoint_07:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   dial_properties:
     diameter: 0.1
   distanceToWall: -0.13
   driveToPosition:
-  - x: -0.1
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: -0.1
     y: 0.5
     yaw: 0.0
-  - x: 0.0
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.0
     y: 0.5
     yaw: 1.0
   max_value: 2.5
   min_value: 0
   wallOrientation: -0.5
 checkpoint_08:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   dial_properties:
     diameter: 0.105
   distanceToWall: -0.62
   driveToPosition:
-  - x: 0.0
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.0
     y: 1.1
     yaw: 0.0
-  - x: 0.0
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.0
     y: 1.1
     yaw: 1.0
   max_value: 16
   min_value: 0
   wallOrientation: -0.5
 checkpoint_09:
-  armPosition:
-  - arm1: 0.0
-    arm2: 0.0
-    arm3: 0.0
-    arm4: 0.0
-    arm5: 0.0
   distanceToWall: -0.28
   driveToPosition:
-  - x: 0.0
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.0
     y: 0.6
     yaw: 0.0
-  - x: 0.0
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    x: 0.0
     y: 0.6
     yaw: 1.0
   max_value: 100
