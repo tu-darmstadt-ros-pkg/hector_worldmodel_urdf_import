@@ -5,23 +5,40 @@ checkpoint_01:
   distanceToWall: -0.19
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - arm1: 1.0
       arm2: 0.0
       arm3: 1.23
       arm4: 0.0
       arm5: 0
+    - arm1: 0.0
+      arm2: 0
+      arm3: 0.0
+      arm4: 0
+      arm5: 0
     x: -1.2
     y: -2.3
     yaw: 2.0
+    flipper_angle: -0.75
   - armPosition:
-    - arm1: 0.0
+    - arm1: 3.0
       arm2: 0.0
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    - arm1: 1.0
+      arm2: 0
+      arm3: 0.0
+      arm4: 0
+      arm5: 0
+    - arm1: 0.0
+      arm2: 7.0
+      arm3: 0
+      arm4: 8.0
+      arm5: 0
     x: 0.0
     y: 0.0
     yaw: 0.0
+    flipper_angle: -0.75
   max_value: 10
   min_value: 0
   wallOrientation: 1
@@ -31,30 +48,47 @@ checkpoint_02:
   diameter: 3.14
   distanceToWall: -1.1
   driveToPosition:
-    armPosition:
-    - arm1: 0.0
+  - armPosition:
+    - arm1: 1.0
       arm2: 0.0
-      arm3: 0.0
+      arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: 1.8
-    y: 0.0
-    yaw: 0.5
+    - arm1: 0.0
+      arm2: 0
+      arm3: 0.0
+      arm4: 0
+      arm5: 0
+    - arm1: 0.0
+      arm2: 0
+      arm3: 0
+      arm4: 0
+      arm5: 0
+    x: -1.2
+    y: -2.3
+    yaw: 2.0
+    flipper_angle: -0.75
   max_value: 2.5
   min_value: 0
   wallOrientation: 1
 checkpoint_03:
   distanceToWall: 0.19
   driveToPosition:
-    armPosition:
-    - arm1: 0.0
+  - armPosition:
+    - arm1: 1.0
       arm2: 0.0
-      arm3: 0.0
+      arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: -0.4
-    y: -1.1
-    yaw: 0.5
+    - arm1: 2.0
+      arm2: 0
+      arm3: 0.0
+      arm4: 0
+      arm5: 0
+    x: -1.2
+    y: -2.3
+    yaw: 2.0
+    flipper_angle: -0.75
   max_value: 1
   min_value: 0
   valve_properties:
@@ -65,15 +99,16 @@ checkpoint_03:
 checkpoint_04:
   distanceToWall: 0.055
   driveToPosition:
-    armPosition:
-    - arm1: 0.0
+  - armPosition:
+    - arm1: 1.0
       arm2: 0.0
-      arm3: 0.0
+      arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: 1.1
-    y: -0.4
-    yaw: 1.0
+    x: -1.2
+    y: -2.3
+    yaw: 2.0
+    flipper_angle: -0.75
   max_value: 1
   min_value: 0
   valve_properties:
@@ -84,15 +119,16 @@ checkpoint_04:
 checkpoint_05:
   distanceToWall: 0.1
   driveToPosition:
-    -armPosition:
-    - arm1: 0.0
+  - armPosition:
+    - arm1: 1.0
       arm2: 0.0
-      arm3: 0.0
+      arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: 1.1
-    y: -0.4
-    yaw: 0.0
+    x: -1.2
+    y: -2.3
+    yaw: 2.0
+    flipper_angle: -0.75
   max_value: 1
   min_value: 0
   valve_properties:
@@ -103,15 +139,16 @@ checkpoint_05:
 checkpoint_06:
   distanceToWall: -0.28
   driveToPosition:
-    -armPosition:
-    - arm1: 0.0
-      arm2: 0
-      arm3: 0
-      arm4: 0
+  - armPosition:
+    - arm1: 1.0
+      arm2: 0.0
+      arm3: 1.23
+      arm4: 0.0
       arm5: 0
-    x: 0.0
-    y: 0.6
-    yaw: 0.0
+    x: -1.2
+    y: -2.3
+    yaw: 2.0
+    flipper_angle: -0.75
   max_value: 100
   min_value: 0
   wallOrientation: -0.5
