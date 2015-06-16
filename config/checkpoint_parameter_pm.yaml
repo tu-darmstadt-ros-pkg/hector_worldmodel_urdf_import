@@ -105,7 +105,7 @@ checkpoint_04:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
-    x: -0.4600000000000001
+    x: -0.46
     y: -0.8
     yaw: 0.5
   - armPosition:
@@ -114,8 +114,8 @@ checkpoint_04:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
-    x: -0.35
-    y: 1.1
+    x: -0.25
+    y: 1.2
     yaw: 0.20555555555555555
   - armPosition:
     - arm1: 0.0
