@@ -124,24 +124,24 @@ checkpoint_03:
   wallOrientation: 0.5
 checkpoint_04:
   armPosition:
-  - arm1: -0.82
-    arm2: -0.6
-    arm3: -2.13
-    arm4: 0.99
-    arm5: 1.01
-  - arm1: 3.1415958768674344
-    arm2: 0.9263440460725008
-    arm3: -1.558185725140123
-    arm4: 0.938646828577518
-    arm5: -1.7592678976117337
+  - arm1: 4.84283903299243e-05
+    arm2: -0.3716238346555727
+    arm3: 1.2682512783313902
+    arm4: -2.647187225610139
+    arm5: 0.3769874925973644
+  - arm1: 3.14
+    arm2: 0.93
+    arm3: -1.56
+    arm4: 0.94
+    arm5: -1.76
   distanceToWall: 0.19
   driveToPosition:
   - armPosition:
-    - arm1: -0.82
-      arm2: -0.6
-      arm3: -2.13
-      arm4: 0.99
-      arm5: 1.01
+    - arm1: 0.0
+      arm2: -0.37
+      arm3: 1.27
+      arm4: -2.65
+      arm5: 0.38
     - arm1: 3.14
       arm2: 0.93
       arm3: -1.56
@@ -190,20 +190,20 @@ checkpoint_04:
   wallOrientation: 0
 checkpoint_05:
   armPosition:
-  - arm1: -0.06282863429842145
-    arm2: 1.0750729647341082
-    arm3: -1.0358151809178562
-    arm4: -0.49661005206384345
-    arm5: -1.5707982222488015
+  - arm1: -0.06077499944584819
+    arm2: 0.7923841552726891
+    arm3: -1.2086440922893438
+    arm4: 1.047685896681628
+    arm5: -1.570003154893267
   distanceToWall: 0.055
   driveToPosition:
   - armPosition:
     - arm1: -0.06
-      arm2: 1.08
-      arm3: -1.04
-      arm4: -0.5
+      arm2: 0.79
+      arm3: -1.21
+      arm4: 1.05
       arm5: -1.57
-    flipper_angle: -1.57
+    flipper_angle: -0.75
     x: 1.1
     y: -0.43
     yaw: 0.0
@@ -330,16 +330,16 @@ checkpoint_08:
   wallOrientation: -0.5
 checkpoint_09:
   armPosition:
-  - arm1: -4.166516885284466e-06
-    arm2: 1.0170337657815702
-    arm3: 2.0739384550112305
-    arm4: -1.985489418041734
-    arm5: 1.5707958096480423
+  - arm1: 6.0368088625750715e-06
+    arm2: 0.7428763219063139
+    arm3: 2.0720849349782053
+    arm4: -1.9901335370048852
+    arm5: 1.569990322903939
   distanceToWall: -0.28
   driveToPosition:
   - armPosition:
     - arm1: 0.0
-      arm2: 1.02
+      arm2: 0.74
       arm3: 2.07
       arm4: -1.99
       arm5: 1.57
