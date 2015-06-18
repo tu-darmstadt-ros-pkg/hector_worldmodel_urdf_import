@@ -15,10 +15,10 @@ checkpoint_01:
       arm3: 0.0
       arm4: 0
       arm5: 0
-    x: -1.2
-    y: -2.3
-    yaw: 2.0
     flipper_angle: -0.75
+    x: 0.5
+    y: -0.7999999999999988
+    yaw: 0.5
   - armPosition:
     - arm1: 3.0
       arm2: 0.0
@@ -35,10 +35,10 @@ checkpoint_01:
       arm3: 0
       arm4: 8.0
       arm5: 0
+    flipper_angle: -0.75
     x: 0.0
     y: 0.0
     yaw: 0.0
-    flipper_angle: -0.75
   max_value: 10
   min_value: 0
   wallOrientation: 1
@@ -64,10 +64,10 @@ checkpoint_02:
       arm3: 0
       arm4: 0
       arm5: 0
-    x: -1.2
-    y: -2.3
-    yaw: 2.0
     flipper_angle: -0.75
+    x: 0.5
+    y: 0.7000000000000011
+    yaw: 1.5
   max_value: 2.5
   min_value: 0
   wallOrientation: 1
@@ -85,10 +85,10 @@ checkpoint_03:
       arm3: 0.0
       arm4: 0
       arm5: 0
-    x: -1.2
-    y: -2.3
-    yaw: 2.0
     flipper_angle: -0.75
+    x: 0.5
+    y: -0.8
+    yaw: 0.5
   max_value: 1
   min_value: 0
   valve_properties:
@@ -105,10 +105,10 @@ checkpoint_04:
       arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: -1.2
-    y: -2.3
-    yaw: 2.0
     flipper_angle: -0.75
+    x: -0.9999999999999999
+    y: -0.29999999999999893
+    yaw: 2.0
   max_value: 1
   min_value: 0
   valve_properties:
@@ -125,10 +125,10 @@ checkpoint_05:
       arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: -1.2
-    y: -2.3
-    yaw: 2.0
     flipper_angle: -0.75
+    x: -1.0999999999999999
+    y: 0.6000000000000011
+    yaw: 2.0
   max_value: 1
   min_value: 0
   valve_properties:
@@ -145,10 +145,10 @@ checkpoint_06:
       arm3: 1.23
       arm4: 0.0
       arm5: 0
-    x: -1.2
+    flipper_angle: -0.75
+    x: -1.0999999999999999
     y: -2.3
     yaw: 2.0
-    flipper_angle: -0.75
   max_value: 100
   min_value: 0
   wallOrientation: -0.5
