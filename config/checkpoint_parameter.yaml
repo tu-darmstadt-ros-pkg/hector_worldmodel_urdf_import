@@ -16,6 +16,23 @@ checkpoint_01:
       arm3: -1.9
       arm4: -2.36
       arm5: -1.07
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0.98
+      q_x: 0
+      q_y: -0.21
+      q_z: -0.0
+      x: -1.28
+      y: -0.65
+      z: -1.77
+    - frame_id: base_link
+      q_w: 0.98
+      q_x: 0
+      q_y: -0.21
+      q_z: 0.0
+      x: 0.13
+      y: 0.06
+      z: -0.94
     flipper_angle: -0.75
     x: 0.9
     y: -0.3
@@ -26,6 +43,15 @@ checkpoint_01:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.7
     y: -1.2
@@ -51,6 +77,15 @@ checkpoint_02:
       arm3: -1.5
       arm4: -2.21
       arm5: 0.69
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.8
     y: -0.5
@@ -61,6 +96,15 @@ checkpoint_02:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.8
     y: 0.0
@@ -71,6 +115,15 @@ checkpoint_02:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.6
     y: -1.7
@@ -81,6 +134,15 @@ checkpoint_02:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.6
     y: -1.7
@@ -105,6 +167,15 @@ checkpoint_03:
       arm3: -0.46
       arm4: -1.27
       arm5: 0.5
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.6
     y: -1.88
@@ -115,6 +186,15 @@ checkpoint_03:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.7
     y: -1.8
@@ -147,6 +227,15 @@ checkpoint_04:
       arm3: -1.56
       arm4: 0.94
       arm5: -1.76
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: -0.46
     y: -0.8
@@ -157,6 +246,15 @@ checkpoint_04:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: -0.35
     y: 1.1
@@ -167,6 +265,15 @@ checkpoint_04:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: -0.4
     y: -1.1
@@ -177,6 +284,15 @@ checkpoint_04:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: -0.35
     y: 1.1
@@ -203,6 +319,15 @@ checkpoint_05:
       arm3: -1.21
       arm4: 1.05
       arm5: -1.57
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.1
     y: -0.43
@@ -213,6 +338,15 @@ checkpoint_05:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.1
     y: -0.4
@@ -239,6 +373,15 @@ checkpoint_06:
       arm3: -1.55
       arm4: -1.16
       arm5: 0.44
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 1.0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.1
     y: -0.43
@@ -249,6 +392,15 @@ checkpoint_06:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 1.1
     y: -0.4
@@ -277,6 +429,15 @@ checkpoint_07:
       arm3: -1.96
       arm4: -1.32
       arm5: 1.63
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: -0.1
     y: 0.5
@@ -287,6 +448,15 @@ checkpoint_07:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.0
     y: 0.5
@@ -311,6 +481,15 @@ checkpoint_08:
       arm3: 0.0
       arm4: -0.06
       arm5: 1.38
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: 1.57
     x: 0.0
     y: 1.1
@@ -321,6 +500,15 @@ checkpoint_08:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.0
     y: 1.1
@@ -343,6 +531,15 @@ checkpoint_09:
       arm3: 2.07
       arm4: -1.99
       arm5: 1.57
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.0
     y: 0.6
@@ -353,6 +550,15 @@ checkpoint_09:
       arm3: 0.0
       arm4: 0.0
       arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
     flipper_angle: -0.75
     x: 0.0
     y: 0.6
