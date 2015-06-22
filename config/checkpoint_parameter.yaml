@@ -381,12 +381,12 @@ checkpoint_06:
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: -2.7
+      - arm1: 0.25
         arm2: -0.05
         arm3: -1.55
         arm4: -1.16
         arm5: -0.0
-      arm1: 0.25
+      arm1: -2.7
       arm2: -0.05
       arm3: -1.55
       arm4: -1.16
@@ -443,12 +443,12 @@ checkpoint_07:
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: 2.7
+      - arm1: 0.0
         arm2: -0.93
         arm3: -1.96
         arm4: -1.32
         arm5: 1.63
-      arm1: 0.0
+      arm1: 2.7
       arm2: -0.93
       arm3: -1.96
       arm4: -1.32
