@@ -321,12 +321,12 @@ checkpoint_05:
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: 3.08
+      - arm1: -0.06
         arm2: 0.79
         arm3: -1.21
         arm4: 1.05
         arm5: -1.57
-      arm1: -0.06
+      arm1: 3.08
       arm2: 0.79
       arm3: -1.21
       arm4: 1.05
