@@ -18,6 +18,9 @@
         - urdf_name: umad_level_gauge_objects_description
           class_id: level_gauge
           frame_id: world
+        - urdf_name: umad_hotspot_objects_description
+          class_id: hotspot
+          frame_id: world
     </rosparam>
 
     </node>
