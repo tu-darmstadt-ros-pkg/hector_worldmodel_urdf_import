@@ -21,6 +21,9 @@
         - urdf_name: umad_hotspot_objects_description
           class_id: hotspot
           frame_id: world
+        - urdf_name: umad_objects_of_interest_description
+          class_id: object_of_interest
+          frame_id: world
     </rosparam>
 
     </node>
