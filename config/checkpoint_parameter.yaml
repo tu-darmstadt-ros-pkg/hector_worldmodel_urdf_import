@@ -78,6 +78,12 @@ checkpoint_02:
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
+    - alternative:
+       - arm1: -2.95
+         arm2: -0.91
+         arm3: -2.30
+         arm4: -0.96
+         arm5: 1.13
     - arm1: -1.07
       arm2: 0.56
       arm3: -1.5
@@ -168,7 +174,13 @@ checkpoint_03:
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
-    - arm1: -1.7
+    - alternative:
+      - arm1: -1.7
+        arm2: 0.99
+        arm3: -0.46
+        arm4: -1.27
+        arm5: 0.5
+      arm1: -1.7
       arm2: 0.99
       arm3: -0.46
       arm4: -1.27
@@ -229,7 +241,7 @@ checkpoint_04:
         arm3: 1.27
         arm4: -2.65
         arm5: 0.38
-      arm1: 0.0
+      arm1: 1.57
       arm2: -0.37
       arm3: 1.27
       arm4: -2.65
