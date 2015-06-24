@@ -524,7 +524,7 @@ checkpoint_08:
         arm3: 0.12
         arm4: -1.32
         arm5: 1.63
-      arm1: 0.0
+      arm1: 2.7
       arm2: 0.05
       arm3: 0.12
       arm4: -1.32
@@ -586,7 +586,7 @@ checkpoint_09:
         arm3: 2.07
         arm4: -1.99
         arm5: 1.57
-      arm1: 0.0
+      arm1: 2.7
       arm2: 0.74
       arm3: 1.96
       arm4: -1.99
@@ -706,7 +706,7 @@ checkpoint_12:
         arm3: -1.96
         arm4: -1.32
         arm5: 1.63
-      arm1: 0.0
+      arm1: 2.7
       arm2: -0.93
       arm3: -1.96
       arm4: -1.32
