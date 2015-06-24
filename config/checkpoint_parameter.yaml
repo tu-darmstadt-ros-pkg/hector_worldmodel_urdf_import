@@ -180,7 +180,7 @@ checkpoint_03:
         arm3: -0.46
         arm4: -1.27
         arm5: 0.5
-      arm1: -1.7
+      arm1: 0.0
       arm2: 0.99
       arm3: -0.46
       arm4: -1.27
@@ -538,7 +538,7 @@ checkpoint_08:
       x: 0.0
       y: 0.0
       z: 0.0
-    flipper_angle: 0.75
+    flipper_angle: -0.75
     x: 0.2
     y: 1.0
     yaw: 0.0
@@ -801,6 +801,180 @@ checkpoint_13:
     x: 0.0
     y: 0.5
     yaw: 1.0
+  hotspot_properties:
+    diameter: 0.1
+  max_value: 2.5
+  min_value: 0
+  wallOrientation: -0.5
+save_area_center:
+  armPosition:
+  - arm1: 7.354215419752563e-06
+    arm2: -0.9271407741536768
+    arm3: -1.9576173875361809
+    arm4: -1.3236541833458633
+    arm5: 1.633627998213104
+  distanceToWall: -0.13
+  driveToPosition:
+  - armPosition:
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 2.7
+      arm2: -0.93
+      arm3: -1.96
+      arm4: -1.32
+      arm5: 1.63
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
+  hotspot_properties:
+    diameter: 0.1
+  max_value: 2.5
+  min_value: 0
+  wallOrientation: -0.5
+start_area_center:
+  armPosition:
+  - arm1: 7.354215419752563e-06
+    arm2: -0.9271407741536768
+    arm3: -1.9576173875361809
+    arm4: -1.3236541833458633
+    arm5: 1.633627998213104
+  distanceToWall: -0.13
+  driveToPosition:
+  - armPosition:
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 2.7
+      arm2: -0.93
+      arm3: -1.96
+      arm4: -1.32
+      arm5: 1.63
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
+  hotspot_properties:
+    diameter: 0.1
+  max_value: 2.5
+  min_value: 0
+  wallOrientation: -0.5
+step:
+  armPosition:
+  - arm1: 7.354215419752563e-06
+    arm2: -0.9271407741536768
+    arm3: -1.9576173875361809
+    arm4: -1.3236541833458633
+    arm5: 1.633627998213104
+  distanceToWall: -0.13
+  driveToPosition:
+  - armPosition:
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 2.7
+      arm2: -0.93
+      arm3: -1.96
+      arm4: -1.32
+      arm5: 1.63
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
+  - armPosition:
+    - arm1: 0.0
+      arm2: 0.0
+      arm3: 0.0
+      arm4: 0.0
+      arm5: 0
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0
+      q_x: 0
+      q_y: 0
+      q_z: 0
+      x: 0
+      y: 0
+      z: 0
+    flipper_angle: -0.75
+    x: 0.0
+    y: 0.0
+    yaw: 0.5
   hotspot_properties:
     diameter: 0.1
   max_value: 2.5
