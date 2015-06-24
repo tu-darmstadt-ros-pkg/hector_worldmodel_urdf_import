@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="checkpoint_file" default="$(find hector_worldmodel_urdf_import)/config/checkpoint_parameter.yaml"/>
+    <rosparam ns="object_tracker/objects" command="load" file="$(arg checkpoint_file)" />
+
+    <node pkg="hector_worldmodel_urdf_import" type="hector_worldmodel_urdf_import_node" name="hector_worldmodel_urdf_import" output="screen">
+      <param name="topic_name" type="string" value="worldmodel/user_percept" />
+
+    <rosparam>
+      imports:
+        - urdf_name: umad_dial_gauge_objects_description
+          class_id: dial_gauge
+          frame_id: world
+        - urdf_name: umad_valve_objects_description
+          class_id: valve
+          frame_id: world
+    </rosparam>
+
+    </node>
+</launch>
