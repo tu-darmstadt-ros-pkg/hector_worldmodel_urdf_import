@@ -15,6 +15,12 @@
         - urdf_name: garage_valve_objects_description
           class_id: valve
           frame_id: world
+        - urdf_name: garage_hotspot_objects_description
+          class_id: hotspot
+          frame_id: world
+        - urdf_name: garage_objects_of_interest_description
+          class_id: object_of_interest
+          frame_id: world
     </rosparam>
 
     </node>
