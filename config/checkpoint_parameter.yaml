@@ -223,7 +223,13 @@ checkpoint_04:
   distanceToWall: 0.19
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.37
+        arm3: 1.27
+        arm4: -2.65
+        arm5: 0.38
+      arm1: 0.0
       arm2: -0.37
       arm3: 1.27
       arm4: -2.65
@@ -235,16 +241,16 @@ checkpoint_04:
       arm5: -1.76
     endeffectorPosition:
     - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
+      q_w: 0.0
+      q_x: 0.0
+      q_y: 0.0
+      q_z: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
     flipper_angle: -0.75
     x: -0.46
-    y: -0.8
+    y: -1.0
     yaw: 0.5
   - armPosition:
     - arm1: 0.0
@@ -333,16 +339,16 @@ checkpoint_05:
       arm5: -1.57
     endeffectorPosition:
     - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
+      q_w: 0.0
+      q_x: 0.0
+      q_y: 0.0
       q_z: 0.0
-      x: 0
-      y: 0
-      z: 0
+      x: 0.0
+      y: 0.0
+      z: 0.0
     flipper_angle: -0.75
-    x: 1.1
-    y: -0.43
+    x: 1.2
+    y: -0.48
     yaw: 0.0
   - armPosition:
     - arm1: 0.0
@@ -390,7 +396,7 @@ checkpoint_06:
       arm2: -0.05
       arm3: -1.55
       arm4: -1.16
-      arm5: -0.0
+      arm5: 0.0
     endeffectorPosition:
     - frame_id: world
       q_w: 0.0
@@ -401,7 +407,7 @@ checkpoint_06:
       y: 0.0
       z: 0.0
     flipper_angle: -0.75
-    x: 1.1
+    x: 1.2000000000000002
     y: -0.43
     yaw: 0.0
   - armPosition:
@@ -490,33 +496,39 @@ checkpoint_07:
   wallOrientation: -0.5
 checkpoint_08:
   armPosition:
-  - arm1: -0.00037422774119555413
-    arm2: 0.04245731340079306
-    arm3: 0.0026019730176303213
-    arm4: -0.05500285425997298
-    arm5: 1.3820279628893646
+  - arm1: 5.2490083560563505e-05
+    arm2: 0.05237617233888958
+    arm3: 0.12008607215685352
+    arm4: -1.320122878262402
+    arm5: 1.6300176791297067
   dial_properties:
     diameter: 0.105
   distanceToWall: -0.62
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
-      arm2: 0.04
-      arm3: 0.0
-      arm4: -0.06
-      arm5: 1.38
+    - alternative:
+      - arm1: 0.0
+        arm2: 0.05
+        arm3: 0.12
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 0.0
+      arm2: 0.05
+      arm3: 0.12
+      arm4: -1.32
+      arm5: 1.63
     endeffectorPosition:
     - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
-    flipper_angle: 1.57
-    x: 0.0
-    y: 1.1
+      q_w: 0.0
+      q_x: 0.0
+      q_y: 0.0
+      q_z: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    flipper_angle: 0.75
+    x: 0.2
+    y: 1.0
     yaw: 0.0
   - armPosition:
     - arm1: 0.0
@@ -542,19 +554,31 @@ checkpoint_08:
   wallOrientation: -0.5
 checkpoint_09:
   armPosition:
-  - arm1: 6.0368088625750715e-06
-    arm2: 0.7428763219063139
-    arm3: 2.0720849349782053
-    arm4: -1.9901335370048852
-    arm5: 1.569990322903939
+  - alternative:
+    - arm1: 0.0
+      arm2: 0.74
+      arm3: 1.95
+      arm4: -1.99
+      arm5: 1.759
+    arm1: -2.756691283245516e-06
+    arm2: 0.7400577002227609
+    arm3: 1.9582402885961194
+    arm4: -1.9900068236755333
+    arm5: 1.7592875901831952
   distanceToWall: -0.28
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - alternative:
+      - arm1: 0.0
+        arm2: 0.74
+        arm3: 2.07
+        arm4: -1.99
+        arm5: 1.57
+      arm1: 0.0
       arm2: 0.74
-      arm3: 2.07
+      arm3: 1.96
       arm4: -1.99
-      arm5: 1.57
+      arm5: 1.76
     endeffectorPosition:
     - frame_id: world
       q_w: 0
@@ -565,7 +589,7 @@ checkpoint_09:
       y: 0
       z: 0
     flipper_angle: -0.75
-    x: 0.0
+    x: -0.20000000000000004
     y: 0.6
     yaw: 0.0
   - armPosition:
@@ -600,23 +624,29 @@ checkpoint_11:
   distanceToWall: -0.13
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 2.7
       arm2: -0.93
       arm3: -1.96
       arm4: -1.32
       arm5: 1.63
     endeffectorPosition:
     - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
+      q_w: 0.0
+      q_x: 0.0
+      q_y: 0.0
+      q_z: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
     flipper_angle: -0.75
-    x: -0.1
-    y: 0.5
+    x: 0.0
+    y: 1.2
     yaw: 0.0
   - armPosition:
     - arm1: 0.0
@@ -644,15 +674,27 @@ checkpoint_11:
   wallOrientation: -0.5
 checkpoint_12:
   armPosition:
-  - arm1: 7.354215419752563e-06
-    arm2: -0.9271407741536768
-    arm3: -1.9576173875361809
-    arm4: -1.3236541833458633
-    arm5: 1.633627998213104
+  - alternative:
+    - arm1: 0.0
+      arm2: -0.93
+      arm3: -1.96
+      arm4: -1.32
+      arm5: 1.63
+    arm1: 4.723644061677135e-06
+    arm2: -0.9306721196443997
+    arm3: -1.9593976084793034
+    arm4: -1.3200030218497414
+    arm5: 1.6299973785205104
   distanceToWall: -0.13
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 0.0
       arm2: -0.93
       arm3: -1.96
       arm4: -1.32
@@ -667,8 +709,8 @@ checkpoint_12:
       y: 0
       z: 0
     flipper_angle: -0.75
-    x: -0.1
-    y: 0.5
+    x: 0.1
+    y: 0.7
     yaw: 0.0
   - armPosition:
     - arm1: 0.0
@@ -704,7 +746,13 @@ checkpoint_13:
   distanceToWall: -0.13
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
+    - alternative:
+      - arm1: 0.0
+        arm2: -0.93
+        arm3: -1.96
+        arm4: -1.32
+        arm5: 1.63
+      arm1: 2.7
       arm2: -0.93
       arm3: -1.96
       arm4: -1.32
@@ -719,8 +767,8 @@ checkpoint_13:
       y: 0
       z: 0
     flipper_angle: -0.75
-    x: -0.1
-    y: 0.5
+    x: -0.3
+    y: 1.55
     yaw: 0.0
   - armPosition:
     - arm1: 0.0
