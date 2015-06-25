@@ -64,6 +64,8 @@ checkpoint_01:
     yaw: 1.5
   max_value: 10
   min_value: 0
+  default_min_value: 1
+  default_max_value: 2
   wallOrientation: 1
 checkpoint_02:
   armPosition:
@@ -161,6 +163,8 @@ checkpoint_02:
     yaw: 1.5
   max_value: 2.5
   min_value: 0
+  default_min_value: 1
+  default_max_value: 1.5
   wallOrientation: 1
 checkpoint_03:
   armPosition:
@@ -225,6 +229,8 @@ checkpoint_03:
     yaw: 1.0
   max_value: 10
   min_value: 0
+  default_min_value: 1
+  default_max_value: 2
   wallOrientation: 0.5
 checkpoint_04:
   armPosition:
@@ -335,6 +341,8 @@ checkpoint_04:
     yaw: 1.2055555555555555
   max_value: 1
   min_value: 0
+  default_min_value: 0
+  default_max_value: 0
   valve_properties:
     height: 0.01
     length: 0.13
@@ -395,6 +403,8 @@ checkpoint_05:
     yaw: 1.0
   max_value: 1
   min_value: 0
+  default_min_value: 0
+  default_max_value: 0
   valve_properties:
     height: 0.01
     length: 0.13
@@ -461,6 +471,8 @@ checkpoint_06:
     yaw: 1.0
   max_value: 1
   min_value: 0
+  default_min_value: 1
+  default_max_value: 1
   valve_properties:
     height: 0.01
     length: 0.13
@@ -523,6 +535,8 @@ checkpoint_07:
     yaw: 1.0
   max_value: 2.5
   min_value: 0
+  default_min_value: 1
+  default_max_value: 1.5
   wallOrientation: -0.5
 checkpoint_08:
   armPosition:
@@ -587,6 +601,8 @@ checkpoint_08:
     yaw: 1.0
   max_value: 16
   min_value: 0
+  default_min_value: 1
+  default_max_value: 2
   wallOrientation: -0.5
 checkpoint_09:
   armPosition:
@@ -649,6 +665,8 @@ checkpoint_09:
     yaw: 1.0
   max_value: 100
   min_value: 0
+  default_min_value: 10
+  default_max_value: 100
   wallOrientation: -0.5
 checkpoint_11:
   armPosition:
@@ -713,6 +731,8 @@ checkpoint_11:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
 checkpoint_12:
   armPosition:
@@ -777,6 +797,8 @@ checkpoint_12:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
 checkpoint_13:
   armPosition:
@@ -841,6 +863,8 @@ checkpoint_13:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
 save_area_center:
   armPosition:
@@ -899,6 +923,8 @@ save_area_center:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
 start_area_center:
   armPosition:
@@ -957,6 +983,8 @@ start_area_center:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
 step:
   armPosition:
@@ -1015,4 +1043,6 @@ step:
     diameter: 0.1
   max_value: 2.5
   min_value: 0
+  default_min_value: 60
+  default_max_value: 100
   wallOrientation: -0.5
