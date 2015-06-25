@@ -79,12 +79,12 @@ checkpoint_02:
   driveToPosition:
   - armPosition:
     - alternative:
-       - arm1: -2.95
-         arm2: -0.91
-         arm3: -2.30
-         arm4: -0.96
-         arm5: 1.13
-    - arm1: -1.07
+      - arm1: -2.95
+        arm2: -0.91
+        arm3: -2.3
+        arm4: -0.96
+        arm5: 1.13
+      arm1: -1.07
       arm2: 0.56
       arm3: -1.5
       arm4: -2.21
@@ -164,27 +164,33 @@ checkpoint_02:
   wallOrientation: 1
 checkpoint_03:
   armPosition:
-  - arm1: -1.6965137212776185
-    arm2: 0.9854424810513249
-    arm3: -0.46091829221884684
-    arm4: -1.2684415202871548
-    arm5: 0.5026564437549395
+  - alternative:
+    - arm1: -1.7
+      arm2: 0.99
+      arm3: -0.46
+      arm4: -1.27
+      arm5: 0.5
+    arm1: -1.445132124937139
+    arm2: -0.9943656011032518
+    arm3: -2.2926332892833905
+    arm4: -0.9603236701157964
+    arm5: -5.79014574064729e-07
   dial_properties:
     diameter: 0.15
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: -1.7
-        arm2: 0.99
-        arm3: -0.46
-        arm4: -1.27
-        arm5: 0.5
-      arm1: 0.0
-      arm2: 0.99
-      arm3: -0.46
-      arm4: -1.27
-      arm5: 0.5
+      - arm1: 1.5
+        arm2: -0.99
+        arm3: -2.29
+        arm4: -0.96
+        arm5: -0.0
+      arm1: -1.45
+      arm2: -0.99
+      arm3: -2.29
+      arm4: -0.96
+      arm5: -0.0
     endeffectorPosition:
     - frame_id: world
       q_w: 0
@@ -222,11 +228,17 @@ checkpoint_03:
   wallOrientation: 0.5
 checkpoint_04:
   armPosition:
-  - arm1: 4.84283903299243e-05
-    arm2: -0.3716238346555727
-    arm3: 1.2682512783313902
-    arm4: -2.647187225610139
-    arm5: 0.3769874925973644
+  - alternative:
+    - arm1: 0.0
+      arm2: -0.37
+      arm3: 1.27
+      arm4: -2.65
+      arm5: 0.38
+    arm1: -1.2318588540338737e-05
+    arm2: 0.14599759055157513
+    arm3: -1.842216514663784
+    arm4: -0.9601519210180012
+    arm5: -6.504075129143416e-06
   - arm1: 3.14
     arm2: 0.93
     arm3: -1.56
@@ -241,11 +253,11 @@ checkpoint_04:
         arm3: 1.27
         arm4: -2.65
         arm5: 0.38
-      arm1: 1.57
-      arm2: -0.37
-      arm3: 1.27
-      arm4: -2.65
-      arm5: 0.38
+      arm1: 0.0
+      arm2: 0.15
+      arm3: -1.84
+      arm4: -0.96
+      arm5: 0.0
     - arm1: 3.14
       arm2: 0.93
       arm3: -1.56
@@ -344,11 +356,11 @@ checkpoint_05:
         arm3: -1.21
         arm4: 1.05
         arm5: -1.57
-      arm1: 3.08
-      arm2: 0.79
-      arm3: -1.21
-      arm4: 1.05
-      arm5: -1.57
+      arm1: 0.0
+      arm2: -0.37
+      arm3: 1.27
+      arm4: -2.65
+      arm5: 0.38
     endeffectorPosition:
     - frame_id: world
       q_w: 0.0
