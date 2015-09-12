@@ -104,63 +104,6 @@ checkpoint_02:
     x: 1.8
     y: -0.5
     yaw: 0.5
-  - armPosition:
-    - arm1: 0.0
-      arm2: 0.0
-      arm3: 0.0
-      arm4: 0.0
-      arm5: 0
-    endeffectorPosition:
-    - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
-    flipper_angle: -0.75
-    x: 1.8
-    y: 0.0
-    yaw: 1.5
-  - armPosition:
-    - arm1: 0.0
-      arm2: 0.0
-      arm3: 0.0
-      arm4: 0.0
-      arm5: 0
-    endeffectorPosition:
-    - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
-    flipper_angle: -0.75
-    x: 1.6
-    y: -1.7
-    yaw: 0.5
-  - armPosition:
-    - arm1: 0.0
-      arm2: 0.0
-      arm3: 0.0
-      arm4: 0.0
-      arm5: 0
-    endeffectorPosition:
-    - frame_id: world
-      q_w: 0
-      q_x: 0
-      q_y: 0
-      q_z: 0
-      x: 0
-      y: 0
-      z: 0
-    flipper_angle: -0.75
-    x: 1.6
-    y: -1.7
-    yaw: 1.5
   max_value: 2.5
   min_value: 0
   default_min_value: 1
