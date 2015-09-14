@@ -434,16 +434,16 @@ checkpoint_07:
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: 0.0
-        arm2: -0.93
-        arm3: -1.96
-        arm4: -1.32
-        arm5: 1.63
-      arm1: 2.7
-      arm2: -0.93
-      arm3: -1.96
-      arm4: -1.32
-      arm5: 1.63
+      - arm1: 0.14
+        arm2: -1.30
+        arm3: -1.85
+        arm4: -0.60
+        arm5: 1.63  
+      arm1: -0.04
+      arm2: -0.94
+      arm3: -1.83
+      arm4: -0.93
+      arm5: -1.68
     endeffectorPosition:
     - frame_id: world
       q_w: 0.86
