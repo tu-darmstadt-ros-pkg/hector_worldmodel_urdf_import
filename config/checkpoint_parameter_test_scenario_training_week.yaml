@@ -70,19 +70,20 @@ checkpoint_03:
   distanceToWall: 0.19
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
-      arm2: 0.88
-      arm3: -1.38
-      arm4: 0.94
-      arm5: 1.57
-    - arm1: 2.0
-      arm2: 0
-      arm3: 0.0
-      arm4: 0
-      arm5: 0
+    - alternative:
+      - arm1: 0
+        arm2: -1.2035558838889475
+        arm3: -2.3019981634845967
+        arm4: 1.9300912261984244
+        arm5: 1.5707823546367736
+      arm1: 3.1
+      arm2: -1.2035558838889475
+      arm3: -2.3019981634845967
+      arm4: 1.9300912261984244
+      arm5: 1.5707823546367736
     flipper_angle: -1.57
     x: -0.7
-    y: -0.1
+    y: 0.1
     yaw: 0.5
   max_value: 1
   min_value: 0
