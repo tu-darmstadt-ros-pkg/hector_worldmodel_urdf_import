@@ -170,7 +170,7 @@ checkpoint_06:
       arm4: 1.6
       arm5: 1.7
     flipper_angle: -0.75
-    x: 0.3999999999999999
+    x: -0.2
     y: -1.25
     yaw: 2.0
   max_value: 100
