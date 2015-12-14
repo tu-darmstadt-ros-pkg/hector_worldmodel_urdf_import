@@ -1,4 +1,16 @@
 checkpoint_01:
+  armPosition:
+  - alternative:
+    - arm1: 2.596647996178092e-06
+      arm2: 0.9760147133728498
+      arm3: -1.2690264560891267
+      arm4: -2.2059655354529166
+      arm5: 1.884961493803539
+    arm1: 2.596647996178092e-06
+    arm2: 0.9760147133728498
+    arm3: -1.2690264560891267
+    arm4: -2.2059655354529166
+    arm5: 1.884961493803539
   dial_properties:
     diameter: 0.1
   diameter: 3.14
@@ -6,16 +18,16 @@ checkpoint_01:
   driveToPosition:
   - armPosition:
     - alternative:
-      - arm1: -3.1720548010483185e-06
-        arm2: 0.27994023986242844
-        arm3: -2.3014024401273234
-        arm4: -0.9596686630499764
-        arm5: 1.6335660161411978
-      arm1: -3.1720548010483185e-06
-      arm2: 0.28
-      arm3: -2.3
-      arm4: -0.96
-      arm5: 1.63
+      - arm1: -0.0
+        arm2: 0.98
+        arm3: -1.27
+        arm4: -2.21
+        arm5: 1.88
+      arm1: -0.0
+      arm2: 0.98
+      arm3: -1.27
+      arm4: -2.21
+      arm5: 1.88
     endeffectorPosition:
     - frame_id: world
       q_w: 0.98
@@ -25,14 +37,31 @@ checkpoint_01:
       x: -1.28
       y: -0.65
       z: -1.77
-    flipper_angle: -0.75
+    flipper_angle: 0.0
     x: 0.5
-    y: -0.6
+    y: -0.8
     yaw: 1.5
   max_value: 10
   min_value: 0
   wallOrientation: 1
 checkpoint_02:
+  armPosition:
+  - alternative:
+    - arm1: 0.06
+      arm2: -1.81
+      arm3: -2.59
+      arm4: 0.5
+      arm5: 1.45
+    arm1: -1.4449163030505474e-06
+    arm2: -1.017945439709023
+    arm3: -2.824624963868147
+    arm4: -1.323422393637582
+    arm5: 1.8221052844597718
+  - arm1: 0.06
+    arm2: -1.81
+    arm3: -2.59
+    arm4: 0.5
+    arm5: 1.45
   dial_properties:
     diameter: 0.1
   diameter: 3.14
@@ -45,6 +74,10 @@ checkpoint_02:
         arm3: -2.59
         arm4: 0.5
         arm5: 1.45
+      arm2: -1.02
+      arm3: -2.82
+      arm4: -1.32
+      arm5: 1.82
     - arm1: 0.06
       arm2: -1.81
       arm3: -2.59
@@ -52,13 +85,13 @@ checkpoint_02:
       arm5: 1.45
     endeffectorPosition:
     - frame_id: world
-      q_w: 0.98
-      q_x: 0
-      q_y: -0.21
-      q_z: -0.0
-      x: -1.28
-      y: -0.65
-      z: -1.77
+      q_w: -0.13
+      q_x: 0.03
+      q_y: 0.24
+      q_z: 0.96
+      x: 3.53
+      y: 1.84
+      z: 0.8
     flipper_angle: -1.57
     x: 0.77
     y: 0.0
