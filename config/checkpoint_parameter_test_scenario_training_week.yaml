@@ -92,7 +92,7 @@ checkpoint_02:
       arm4: 0
       arm5: 0
     flipper_angle: -1.57
-    x: 0.8
+    x: 0.77
     y: 0.0
     yaw: 1.5
   max_value: 2.5
@@ -186,9 +186,9 @@ checkpoint_05:
       arm4: -1.49
       arm5: 1.57
     flipper_angle: -0.75
-    x: 0.7
-    y: -0.1
-    yaw: 0.2777777777777778
+    x: 0.55
+    y: -0.7
+    yaw: 0.5
   max_value: 1
   min_value: 0
   valve_properties:
