@@ -33,11 +33,6 @@ checkpoint_01:
   min_value: 0
   wallOrientation: 1
 checkpoint_02:
-  - arm1: 0.06
-    arm2: -1.81
-    arm3: -2.59
-    arm4: 0.5
-    arm5: 1.45
   dial_properties:
     diameter: 0.1
   diameter: 3.14
