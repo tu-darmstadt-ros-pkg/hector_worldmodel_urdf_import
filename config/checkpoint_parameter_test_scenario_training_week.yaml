@@ -29,22 +29,6 @@ checkpoint_01:
     x: 0.5
     y: -0.6
     yaw: 1.5
-  - armPosition:
-    - arm1: 3.0
-      arm2: 0.0
-      arm3: 0.0
-      arm4: 0.0
-      arm5: 0
-    - arm1: 1.0
-      arm2: 0
-      arm3: 0.0
-      arm4: 0
-      arm5: 0
-    - arm1: 0.0
-      arm2: 7.0
-      arm3: 0
-      arm4: 8.0
-      arm5: 0
     flipper_angle: -0.75
     x: 0.0
     y: 0.0
@@ -53,43 +37,32 @@ checkpoint_01:
   min_value: 0
   wallOrientation: 1
 checkpoint_02:
-  armPosition:
-  - arm1: -5.9721554422687007e-05
-    arm2: 0.5188883123243899
-    arm3: -1.4387882108441987
-    arm4: 1.1025372820036612
-    arm5: -1.6336360486682207
-  - arm1: 0.0
-    arm2: 0
-    arm3: 0.0
-    arm4: 0
-    arm5: 0
-  - arm1: 0.0
-    arm2: 0
-    arm3: 0
-    arm4: 0
-    arm5: 0
   dial_properties:
     diameter: 0.1
   diameter: 3.14
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
-    - arm1: 0.0
-      arm2: 0.52
-      arm3: -1.44
-      arm4: 1.1
-      arm5: -1.63
-    - arm1: 0.0
-      arm2: 0
-      arm3: 0.0
-      arm4: 0
-      arm5: 0
-    - arm1: 0.0
-      arm2: 0
-      arm3: 0
-      arm4: 0
-      arm5: 0
+    - alternative:
+      - arm1: 0.06
+        arm2: -1.81
+        arm3: -2.59
+        arm4: 0.5
+        arm5: 1.45
+    - arm1: 0.06
+      arm2: -1.81
+      arm3: -2.59
+      arm4: 0.5
+      arm5: 1.45
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0.98
+      q_x: 0
+      q_y: -0.21
+      q_z: -0.0
+      x: -1.28
+      y: -0.65
+      z: -1.77
     flipper_angle: -1.57
     x: 0.77
     y: 0.0
