@@ -29,10 +29,6 @@ checkpoint_01:
     x: 0.5
     y: -0.6
     yaw: 1.5
-    flipper_angle: -0.75
-    x: 0.0
-    y: 0.0
-    yaw: 0.0
   max_value: 10
   min_value: 0
   wallOrientation: 1
