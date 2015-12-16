@@ -212,3 +212,34 @@ checkpoint_06:
   max_value: 100
   min_value: 0
   wallOrientation: -0.5
+checkpoint_07:
+  distanceToWall: -0.28
+  driveToPosition:
+  - armPosition:
+    - alternative:
+      - arm1: 0
+        arm2: -0.91
+        arm3: -2.3
+        arm4: 1.6
+        arm5: 1.7
+      arm1: 0.0
+      arm2: -0.91
+      arm3: -2.3
+      arm4: 1.6
+      arm5: 1.7
+    endeffectorPosition:
+    - frame_id: world
+      q_w: 0.7021602988243103
+      q_x: 0.0503336600959301
+      q_y: 0.09989339858293533
+      q_z: 0.7031775116920471
+      x: 1.1438860893249512
+      y: 1.027474284172058
+      z: 0.6695634722709656
+    flipper_angle: -0.75
+    x: -0.2
+    y: -1.25
+    yaw: 2.0
+  max_value: 100
+  min_value: 0
+  wallOrientation: -0.5
