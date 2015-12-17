@@ -1,9 +1,8 @@
 checkpoint_01:
   valve_properties:
-    height: 0.01
-    length: 0.13
+    height: 0.02
+    length: 0.15
     width: 0.03
-  diameter: 3.14
   distanceToWall: -0.19
   driveToPosition:
   - armPosition:
@@ -31,15 +30,14 @@ checkpoint_01:
     x: 0.5
     y: -0.8
     yaw: 1.5
-  max_value: 10
+  max_value: 1
   min_value: 0
   wallOrientation: 1
 checkpoint_02:
   dial_properties:
-    min_angle: 0.35
-    min_angle: 5.93
+    min_angle: 0.52
+    max_angle: 5.76
     diameter: 0.1
-  diameter: 3.14
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
@@ -67,13 +65,13 @@ checkpoint_02:
     x: 0.77
     y: -0.5
     yaw: 1.5
-  max_value: 2.5
+  max_value: 0.6
   min_value: 0
   wallOrientation: 1
 checkpoint_03:
   dial_properties:
-    min_angle: 0.35
-    min_angle: 5.93
+    min_angle: 0.52
+    max_angle: 5.76
     diameter: 0.1
   distanceToWall: 0.19
   driveToPosition:
@@ -107,8 +105,8 @@ checkpoint_03:
   wallOrientation: 0
 checkpoint_04:
   dial_properties:
-    min_angle: 0.35
-    min_angle: 5.93
+    min_angle: 0.52
+    max_angle: 5.76
     diameter: 0.1
   distanceToWall: 0.055
   driveToPosition:
@@ -147,7 +145,7 @@ checkpoint_04:
     x: 0.1
     y: -1.1
     yaw: 0.5
-  max_value: 1
+  max_value: 2.5
   min_value: 0
   valve_properties:
     height: 0.01
@@ -191,8 +189,8 @@ checkpoint_05:
   wallOrientation: 0.5
 checkpoint_06:
   dial_properties:
-    min_angle: 0.35
-    min_angle: 5.93
+    min_angle: 0.52
+    max_angle: 5.76
     diameter: 0.1
   distanceToWall: -0.28
   driveToPosition:
@@ -221,7 +219,7 @@ checkpoint_06:
     x: -0.2
     y: -1.25
     yaw: 2.0
-  max_value: 100
+  max_value: 10
   min_value: 0
   wallOrientation: -0.5
 checkpoint_07:
