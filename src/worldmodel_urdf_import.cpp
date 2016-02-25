@@ -130,10 +130,7 @@ int main(int argc, char **argv)
     ROS_INFO("worldmodel_urdf_import start");
     worldmodel_urdf_import::WorldModelUrdfImport urdf_importer;
     
-    ros::Time start_time = ros::Time::now();
-
-    while ( (ros::Time::now() - start_time) < ros::Duration(1.0))
-      sleep(1);
+    ros::Duration(5.0).sleep();
 
     urdf_importer.processConfig();
 
