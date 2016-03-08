@@ -36,8 +36,8 @@ checkpoint_01:
 checkpoint_02:
   dial_properties:
     diameter: 0.1
-    max_angle: 5.76
-    min_angle: 0.52
+    max_angle: 5.498
+    min_angle: 0.785
   distanceToWall: -1.1
   driveToPosition:
   - armPosition:
@@ -106,8 +106,8 @@ checkpoint_03:
 checkpoint_04:
   dial_properties:
     diameter: 0.1
-    max_angle: 5.76
-    min_angle: 0.52
+    max_angle: 5.498
+    min_angle: 0.785
   distanceToWall: 0.055
   driveToPosition:
   - armPosition:
@@ -190,8 +190,8 @@ checkpoint_05:
 checkpoint_06:
   dial_properties:
     diameter: 0.1
-    max_angle: 5.76
-    min_angle: 0.52
+    max_angle: 5.498
+    min_angle: 0.785
   distanceToWall: -0.28
   driveToPosition:
   - armPosition:
