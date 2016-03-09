@@ -25,6 +25,11 @@ WorldModelUrdfImport::WorldModelUrdfImport()
 void WorldModelUrdfImport::processConfig(){
 
     ros::NodeHandle priv_nh("~");
+    
+    while(_percept_pub.getNumSubscribers() == 0) {
+        ROS_WARN("worldmodel_urdf_import waiting for subscribers...");
+        ros::Duration(1.0).sleep();
+    }
 
     XmlRpc::XmlRpcValue urdf_import_names;
     if (priv_nh.getParam("imports", urdf_import_names) && urdf_import_names.getType() == XmlRpc::XmlRpcValue::TypeArray) {
@@ -129,8 +134,6 @@ int main(int argc, char **argv)
 
     ROS_INFO("worldmodel_urdf_import start");
     worldmodel_urdf_import::WorldModelUrdfImport urdf_importer;
-    
-    ros::Duration(5.0).sleep();
 
     urdf_importer.processConfig();
 
