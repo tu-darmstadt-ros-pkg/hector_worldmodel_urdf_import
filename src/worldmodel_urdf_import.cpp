@@ -14,9 +14,11 @@ WorldModelUrdfImport::WorldModelUrdfImport()
 {
     ros::NodeHandle priv_nh("~");
 
-    priv_nh.param("topic_name",  _topic_name, std::string("worldmodel/user_percept"));
+    priv_nh.param("topic_name",  _topic_name, std::string("arg"));
 
     _percept_pub = _nh.advertise<hector_worldmodel_msgs::UserPercept>(_topic_name, 1000);
+
+    reset_service_= _nh.advertiseService("worldmodel/reset_worldmodel", &WorldModelUrdfImport::reset_worldmodel, this);
 
     ROS_INFO("Publishing to: %s", _topic_name.c_str());
 
@@ -123,9 +125,14 @@ bool WorldModelUrdfImport::process(std::string param_name,
     return true;
 }
 
-
+bool WorldModelUrdfImport::reset_worldmodel(std_srvs::Empty::Request &req,
+           std_srvs::Empty::Response &res)
+{
+  processConfig();
+  return true;
 }
 
+}
 
 int main(int argc, char **argv)
 {
@@ -138,5 +145,6 @@ int main(int argc, char **argv)
     urdf_importer.processConfig();
 
     ROS_INFO("worldmodel_urdf_import done");
+    ros::spin();
     exit(0);
 }
