@@ -12,6 +12,9 @@
         - urdf_name: umad_dial_gauge_objects_description
           class_id: dial_gauge
           frame_id: world
+<!--        - urdf_name: umad_pump_objects_description
+          class_id: pump
+          frame_id: world -->
         - urdf_name: umad_valve_objects_description
           class_id: valve
           frame_id: world
