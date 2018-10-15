@@ -15,8 +15,11 @@
         - urdf_name: umad_pump_objects_description
           class_id: pump
           frame_id: world
-        - urdf_name: umad_valve_objects_description
-          class_id: valve
+        - urdf_name: umad_valve_lever_objects_description
+          class_id: valve_lever
+          frame_id: world
+        - urdf_name: umad_valve_ball_objects_description
+          class_id: valve_ball
           frame_id: world
         - urdf_name: umad_level_gauge_objects_description
           class_id: level_gauge
