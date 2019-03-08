@@ -73,13 +73,13 @@ bool WorldModelUrdfImport::process(std::string param_name,
 
     int seq = 1;
 
-    boost::shared_ptr<const urdf::Link> world = urdf_model.getLink("world");
+    std::shared_ptr<const urdf::Link> world = urdf_model.getLink("world");
 
-    for(std::vector<boost::shared_ptr<urdf::Link> >::const_iterator it = world->child_links.begin(); it != world->child_links.end(); ++it) {
-        boost::shared_ptr<urdf::Link> link = *it;
+    for(std::vector<std::shared_ptr<urdf::Link> >::const_iterator it = world->child_links.begin(); it != world->child_links.end(); ++it) {
+        std::shared_ptr<urdf::Link> link = *it;
 
         ROS_INFO("Link: %s", link->name.c_str());
-        boost::shared_ptr<urdf::Joint> joint = link->parent_joint;
+        std::shared_ptr<urdf::Joint> joint = link->parent_joint;
 
         hector_worldmodel_msgs::UserPercept userPercept;
 
